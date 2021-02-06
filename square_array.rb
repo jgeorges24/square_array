@@ -1,3 +1,5 @@
+require 'pry'
+
 def square_array(array)
   my_array = []
   array.each do |num|
@@ -5,3 +7,4 @@ def square_array(array)
   end
   my_array
 end
+ binding.pry
